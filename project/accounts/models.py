@@ -35,7 +35,7 @@ WHITE_BG = (255, 255, 255)
 # get custom user model
 User = get_user_model()
 
-
+# account Details 
 class AccountManager(models.Manager):
     def summarize(self, account):
         from api.models.civi import Civi
